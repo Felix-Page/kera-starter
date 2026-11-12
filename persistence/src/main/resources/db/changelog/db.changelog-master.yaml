@@ -1,0 +1,5 @@
+databaseChangeLog:
+  # Add your database migrations here, e.g.:
+  # - include:
+  #     file: 0.0.1/db-changelog-v0.0.1.yaml
+  #     relativeToChangelogFile: true

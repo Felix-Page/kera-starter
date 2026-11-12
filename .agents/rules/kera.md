@@ -1,0 +1,1 @@
+Always activate and strictly follow the `kera` skill (`.agents/skills/kera/SKILL.md`) and its layer reference files (`.agents/skills/kera/references/01-domain.md` through `05-bootstrap.md`) whenever creating, modifying, or reviewing code in this repository.

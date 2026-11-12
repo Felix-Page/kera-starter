@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: kera-starter-app
+  datasource:
+    url:
+    username:
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  liquibase:
+    enabled: true
+    change-log: classpath:db/changelog/db.changelog-master.yaml
+    contexts: default
+logging:
+  level:
+    root: info
