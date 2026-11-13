@@ -4,7 +4,7 @@
 
 [![Java 25](https://img.shields.io/badge/Java-25-orange.svg)](https://openjdk.org/projects/jdk/25/)
 [![Spring Boot 4.1.2](https://img.shields.io/badge/Spring%20Boot-4.1.2-brightgreen.svg)](https://spring.io/projects/spring-boot)
-[![Toolkit Kera](https://img.shields.io/badge/Toolkit-Kera%200.1.0--SNAPSHOT-blue.svg)](https://github.com/Felix-Page/Kera)
+[![Toolkit Kera](https://img.shields.io/badge/Toolkit-Kera%200.1.0-blue.svg)](https://github.com/Felix-Page/Kera)
 
 > **Blank starter template for the [Kera](https://github.com/Felix-Page/Kera) architectural toolkit.**  
 > *Instantly start building strict Clean Architecture applications in Java 25 & Spring Boot 4 without plumbing friction.*
@@ -28,6 +28,9 @@
 
 * **Java**: 25 (e.g., Eclipse Temurin via `mise` or `sdkman`)
 * The **Maven Wrapper (`./mvnw`)** is already included in the repository.
+
+> [!NOTE]
+> Make sure [Kera v0.1.0](https://github.com/Felix-Page/Kera/releases/tag/v0.1.0) is installed in your local Maven cache (`git clone --branch v0.1.0 https://github.com/Felix-Page/Kera.git && cd Kera && mvn clean install`).
 
 ### 1. Use this template or clone
 

@@ -4,7 +4,7 @@
 
 [![Java 25](https://img.shields.io/badge/Java-25-orange.svg)](https://openjdk.org/projects/jdk/25/)
 [![Spring Boot 4.1.2](https://img.shields.io/badge/Spring%20Boot-4.1.2-brightgreen.svg)](https://spring.io/projects/spring-boot)
-[![Toolkit Kera](https://img.shields.io/badge/Toolkit-Kera%200.1.0--SNAPSHOT-blue.svg)](https://github.com/Felix-Page/Kera)
+[![Toolkit Kera](https://img.shields.io/badge/Toolkit-Kera%200.1.0-blue.svg)](https://github.com/Felix-Page/Kera)
 
 > **Modèle de projet de démarrage vierge pour la boîte à outils d'architecture [Kera](https://github.com/Felix-Page/Kera).**  
 > *Démarrez instantanément un projet Java 25 & Spring Boot 4 en Clean Architecture stricte, sans aucune friction de plomberie.*
@@ -28,6 +28,9 @@
 
 * **Java** : 25 (ex: Eclipse Temurin via `mise` ou `sdkman`)
 * Le **Maven Wrapper (`./mvnw`)** est déjà inclus dans le dépôt.
+
+> [!NOTE]
+> Assurez-vous que [Kera v0.1.0](https://github.com/Felix-Page/Kera/releases/tag/v0.1.0) est installé dans votre cache Maven local (`git clone --branch v0.1.0 https://github.com/Felix-Page/Kera.git && cd Kera && mvn clean install`).
 
 ### 1. Utiliser ce modèle ou cloner
 
